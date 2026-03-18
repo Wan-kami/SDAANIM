@@ -8,4 +8,6 @@ Route::get('/', function () {
 
 use App\Http\Controllers\AdoptanteController;
 
-Route::get('/adoptante', [AdoptanteController::class, 'index'])->name('adoptante');
+Route::get('/index', [AdoptanteController::class, 'index'])->name('adoptante');
+Route::get('/quienes', [AdoptanteController::class, 'quienes']);
+Route::get('/adopta', [AdoptanteController::class, 'adopta']);
