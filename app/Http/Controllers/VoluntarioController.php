@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Tarea;
+use App\Models\Tarea; 
 use Illuminate\Support\Facades\Session;
 
 class VoluntarioController extends Controller
@@ -22,4 +22,3 @@ class VoluntarioController extends Controller
         ));
     }
 }
-
