@@ -12,5 +12,7 @@ use App\Http\Controllers\AdoptanteController;
 Route::get('/index', [AdoptanteController::class, 'index'])->name('adoptante');
 Route::get('/quienes', [AdoptanteController::class, 'quienes']);
 Route::get('/adopta', [AdoptanteController::class, 'adopta']);
-Route::get('/indexvoluntario', [VoluntarioController::class, 'indexvoluntario'])->name('indexvoluntario'); 
+Route::get('/indexvoluntario', [VoluntarioController::class, 'index'])
+    ->name('indexvoluntario');
+#    ->middleware('auth');
  
