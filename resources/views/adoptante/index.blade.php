@@ -1,5 +1,5 @@
 
-@extends('layouts.app')
+@extends('layouts.adoptante.app')
 
 @section('title', 'Adopción de Mascotas')
 

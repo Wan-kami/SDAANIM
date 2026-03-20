@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.adoptante.app')
 
 @section('title', 'Adopta')
 

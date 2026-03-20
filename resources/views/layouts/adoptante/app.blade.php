@@ -8,7 +8,7 @@
 <body>
 
     {{-- HEADER --}}
-    @include('layouts.header')
+    @include('layouts.adoptante.header')
 
     {{-- CONTENIDO --}}
     <main>
@@ -16,7 +16,7 @@
     </main>
 
     {{-- FOOTER --}}
-    @include('layouts.footer')
+    @include('layouts.adoptante.footer')
 
 </body>
 </html>
