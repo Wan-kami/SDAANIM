@@ -61,4 +61,8 @@ class AdoptanteController extends Controller
 
         return view('adoptante.adopta', compact('animales', 'filtro'));
     }
+    public function productos()
+    {
+        return view('adoptante.productos');
+    }
 }

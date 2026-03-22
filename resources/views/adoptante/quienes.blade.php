@@ -3,7 +3,7 @@
 @section('title', 'Quiénes Somos')
 
 @section('content')
-<link rel="stylesheet" href="{{ asset('css/Historia.css') }}">
+<link rel="stylesheet" href="{{ asset('css/adoptante/Historia.css') }}">
 
 <main class="quienes-somos">
 
