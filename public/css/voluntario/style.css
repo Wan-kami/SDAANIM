@@ -158,3 +158,62 @@ footer{
     transform: translateX(5px);
 }
 
+.tareas-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tareas-table th, .tareas-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.tareas-table th {
+    background: #007acc;
+    color: white;
+}
+
+.tareas-table tr:nth-child(even) {
+    background: #f8f8ff;
+}
+
+.tareas-table tr:hover {
+    background: #e0f0ff;
+    transition: 0.3s;
+}
+
+.estado-pendiente {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+.estado-enprogreso {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.estado-completada {
+    color: #27ae60;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.fancy-btn {
+    display: inline-block;
+    background: linear-gradient(90deg,#4a90e2,#007acc);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 0.9em;
+    margin-left: 5px;
+}
+
+.fancy-btn:hover {
+    background: linear-gradient(90deg,#357ab8,#005f99);
+}
