@@ -5,17 +5,6 @@
 @section('content')
 
 <!-- SIDEBAR -->
-<div id="notifSidebar" class="notif-sidebar">
-    <button onclick="toggleSidebar()">✖</button>
-    <h3>Notificaciones</h3>
-
-    <div class="sidebar-links">
-        <a href="{{ url('/voluntario') }}">🏠 Inicio</a>
-        <a href="{{ url('/voluntario/tareas') }}">📝 Mis Tareas</a>
-        <a href="{{ url('/voluntario/historial') }}">📊 Historial</a>
-        <a href="{{ url('/voluntario/perfil') }}">👤 Mi Perfil</a>
-    </div>
-</div>
 
 <section class="admin-sections">
 
@@ -26,21 +15,21 @@
             Total: {{ $total_tareas }} |
             Completadas: {{ $total_completadas }}
         </p>
-        <a href="{{ url('/voluntario/tareas') }}">Ver Tareas</a>
+        <a href="{{ url('/tareas') }}">Ver Tareas</a>
     </div>
 
     <div class="admin-card">
         <div class="icon">📅</div>
         <h3>Calendario</h3>
         <p>Revisa tus fechas límite y organiza tu agenda</p>
-        <a href="{{ url('/voluntario/calendario') }}">Ver Calendario</a>
+        <a href="{{ url('/indexvoluntario/calendario') }}">Ver Calendario</a>
     </div>
 
     <div class="admin-card">
         <div class="icon">📊</div>
         <h3>📊 Historial</h3>
         <p>Consulta tus actividades completadas y progreso</p>
-        <a href="{{ url('/voluntario/historial') }}">Ver Historial</a>
+        <a href="{{ url('/indexvoluntario/historial') }}">Ver Historial</a>
     </div>
 
 </section>
