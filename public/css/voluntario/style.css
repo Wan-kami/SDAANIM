@@ -43,7 +43,7 @@ a {
     right:-320px;
     width:300px;
     height:100%;
-    background:#ffffff;
+    background:#007acc;
     box-shadow:-2px 0 10px rgba(0,0,0,0.2);
     transition:right 0.4s ease;
     z-index:1000;
@@ -97,7 +97,7 @@ footer{
     color:white;
     text-align:center;
     padding:15px 0;
-    margin-top:40px;
+    margin-top:461px;
 }
 
 /* SIDEBAR */
